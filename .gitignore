@@ -85,3 +85,5 @@ atlassian-ide-plugin.xml
 
 # oh-my-zsh gradle plugin
 .gradletasknamecache
+
+gradle-gcs-build-cache-credentials.json
