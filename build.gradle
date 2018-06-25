@@ -29,3 +29,18 @@ gradlePlugin {
     }
 }
 
+pluginBundle {
+    website = 'https://github.com/rpalcolea/gradle-gcs-build-cache'
+    vcsUrl = 'https://github.com/rpalcolea/gradle-gcs-build-cache'
+    description = 'Google Cloud Storage Gradle build cache implementation'
+    tags = ['build-cache']
+
+    plugins {
+        gcsBuildCache {
+            id ='io.perezalcolea.gcs-build-cache'
+            displayName = 'Google Cloud Storage BuildCache'
+        }
+    }
+}
+
+
