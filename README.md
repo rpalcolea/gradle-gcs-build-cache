@@ -5,6 +5,8 @@ Google Cloud Storage Gradle build cache implementation
 [![Apache License 2.0](https://img.shields.io/badge/License-Apache%20License%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![Build Status](https://travis-ci.org/rpalcolea/gradle-gcs-build-cache.svg?branch=master)](https://travis-ci.org/rpalcolea/gradle-gcs-build-cache)
 
+Inspired in https://plugins.gradle.org/plugin/ch.myniva.s3-build-cache
+
 # Usage
 
 Please note that this plugin is not yet ready for production. Feedback though is very welcome. Please open an issue if you find a bug or have an idea for an improvement.
