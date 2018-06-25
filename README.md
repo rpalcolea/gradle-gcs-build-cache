@@ -11,29 +11,10 @@ Please note that this plugin is not yet ready for production. Feedback though is
 
 ## Apply plugin
 
-Build script snippet for plugins DSL for Gradle 2.1 and later:
-
 ```groovy
 plugins {
   id "io.perezalcolea.gcs-build-cache" version "0.1.0"
 }
-```
-
-Build script snippet for use in older Gradle versions or where dynamic configuration is required:
-
-```groovy
-buildscript {
-  repositories {
-    maven {
-      url "https://plugins.gradle.org/m2/"
-    }
-  }
-  dependencies {
-    classpath "gradle.plugin.io.perezalcolea.gradle:gradle-gcs-build-cache:0.1.0"
-  }
-}
-
-apply plugin: "io.perezalcolea.gcs-build-cache"
 ```
 
 ## Configuration
