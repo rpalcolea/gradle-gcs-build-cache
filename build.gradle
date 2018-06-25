@@ -42,6 +42,8 @@ pluginBundle {
         gcsBuildCache {
             id ='io.perezalcolea.gcs-build-cache'
             displayName = 'Google Cloud Storage BuildCache'
+            tags = ['build-cache']
+            version = '0.1.0'
         }
     }
 }
