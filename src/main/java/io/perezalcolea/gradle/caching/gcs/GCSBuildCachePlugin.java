@@ -27,7 +27,7 @@ public class GCSBuildCachePlugin implements Plugin<Settings> {
 
     @Override
     public void apply(Settings settings) {
-        logger.info("Registering S3 build cache");
+        logger.info("Registering GCS build cache");
         BuildCacheConfiguration buildCacheConfiguration = settings.getBuildCache();
         buildCacheConfiguration.registerBuildCacheService(GCSBuildCache.class, GCSBuildCacheServiceFactory.class);
     }
